@@ -10,5 +10,8 @@
       "enableInteractionLogging": true
     }
   },
+  "genAppBuilderSettings": {
+    "engine": "projects/1091446399319/locations/global/collections/default_collection/engines/8e1f54a2-5418-46ff-85a6-6a6b04328864"
+  },
   "startPlaybook": "Customer Success Agent"
 }

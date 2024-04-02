@@ -1,0 +1,9 @@
+{
+  "name": "e30eeb20-1e69-4910-bfff-d92bbaa156c4",
+  "displayName": "sampleapi",
+  "openApiSpec": {
+  
+  },
+  "schemas": [ "Pet" ],
+  "toolType": "CUSTOMIZED_TOOL"
+}

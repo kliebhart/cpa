@@ -1,5 +1,16 @@
 {
   "name": "00000000-0000-0000-0000-000000000000",
   "displayName": "Customer Success Agent",
-  "goal": "Default playbook goal"
+  "goal": "Some goal description ",
+  "steps": [ {
+    "text": "Greet the users, then ask how you can help them today."
+  }, {
+    "text": "Summarize the user's request and ask them to confirm that you understood correctly.",
+    "steps": [ {
+      "text": "If necessary, seek clarifying details."
+    } ]
+  }, {
+    "text": "Thank the user for their business and say goodbye."
+  } ],
+  "referencedTools": [ "projects/gentle-bot-418121/locations/global/agents/8e1f54a2-5418-46ff-85a6-6a6b04328864/tools/13235693-ad9e-49ac-9856-617b8adc4f76", "projects/gentle-bot-418121/locations/global/agents/8e1f54a2-5418-46ff-85a6-6a6b04328864/tools/e30eeb20-1e69-4910-bfff-d92bbaa156c4", "projects/gentle-bot-418121/locations/global/agents/8e1f54a2-5418-46ff-85a6-6a6b04328864/tools/df-code-interpreter-tool" ]
 }
